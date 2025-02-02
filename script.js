@@ -59,13 +59,21 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         document.getElementById('contactForm').reset();
     } else {
         alert("Veuillez remplir tous les champs.");
+<<<<<<< HEAD
     }
+=======
+    }
+>>>>>>> 583ef67b63e667d563e1aea5e108a698084afcf1
 });
 document.getElementById("contactForm").addEventListener("submit", function(event){
     event.preventDefault(); // منع إعادة تحميل الصفحة 
     let formData = new FormData(this);
 
+<<<<<<< HEAD
     fetch("send_mail.php", {
+=======
+    fetch("send_email.php", {
+>>>>>>> 583ef67b63e667d563e1aea5e108a698084afcf1
         method: "POST",
         body: formData
     })
@@ -83,4 +91,7 @@ document.getElementById("contactForm").addEventListener("submit", function(event
     })
     .catch(error => console.error("Erreur:", error));
 });
+<<<<<<< HEAD
     
+=======
+>>>>>>> 583ef67b63e667d563e1aea5e108a698084afcf1
