@@ -1,6 +1,6 @@
 <?php
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
+use PHPMailer-master\PHPMailer-master\PHPMailer-master;
+use PHPMailer-master\PHPMailer-master\Exception;
 
 require 'phpmailer/Exception.php';
 require 'phpmailer/PHPMailer.php';
